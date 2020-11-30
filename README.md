@@ -13,12 +13,12 @@ Add this step to a job to automatically delete older images as part of a job:
       uses: ripplr-io/docr-image-remove@v1
       with:
         image_repository: image-repository # required
-        buffer_size: '10'
+        buffer_size: 10
 ```
 
 # Inputs
 - `image_repository` - (**Required**) Image repository name in the Container Registry
-- `buffer_size` - (Optional) Number of recent images. Default is `'10'`
+- `buffer_size` - (Optional) Number of recent images. Default is `10`
 
 ## License
 
